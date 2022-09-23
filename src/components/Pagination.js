@@ -8,7 +8,6 @@ function PaginationTwo() {
   const navigate = useNavigate();
 
   const loadData = (number) => {
-    console.log(number);
     navigate(`img${number}`);
   };
   return (
