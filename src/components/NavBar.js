@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand">
+      <li class="navbar-brand">
         <Link to="/">ModGenics</Link>
-      </a>
+      </li>
       <button
         class="navbar-toggler"
         type="button"
