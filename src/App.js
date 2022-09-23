@@ -1,15 +1,12 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import PaginationTwo from "./components/Pagination";
 function App() {
   return (
     <div className="App">
-      {/* <Route exact path="/"> */}
-      {/* <Home /> */}
-      {/* </Route> */}
       <NavBar />
       <Routes>
         <Route path="/" element={<Home src="/img/mmmm.png" />} />
