@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Pagination from "react-js-pagination";
 import { useNavigate } from "react-router-dom";
 
-function PaginationTwo({ itemsPerPage }) {
+function PaginationTwo() {
   // We start with an empty list of items.
 
   const navigate = useNavigate();
-
-  const [currentItems, setCurrentItems] = useState(null);
-  const [pageCount, setPageCount] = useState(0);
 
   const loadData = (number) => {
     console.log(number);
